@@ -1,0 +1,40 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "mostly",
+				"type": "Text"
+			},
+			"teach": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"teach_name",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "observe",
+									"type": "Text"
+								}
+							],
+							[
+								"teach_color",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "#6fd391",
+									"type": "Color"
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

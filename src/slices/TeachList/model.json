@@ -1,0 +1,49 @@
+{
+  "id": "teach_list",
+  "type": "SharedSlice",
+  "name": "TeachList",
+  "description": "TeachList",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "Heading",
+            "placeholder": ""
+          }
+        },
+        "teach": {
+          "type": "Group",
+          "config": {
+            "label": "Teach",
+            "repeat": true,
+            "fields": {
+              "teach_name": {
+                "type": "Text",
+                "config": {
+                  "label": "Teach Name",
+                  "placeholder": ""
+                }
+              },
+              "teach_color": {
+                "type": "Color",
+                "config": {
+                  "label": "Teach Color",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
