@@ -29,6 +29,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="bg-slate-900 text-slate-100">
+      <head>
+        <link
+          rel="shortcut icon"
+          href="https://scontent.fdac22-2.fna.fbcdn.net/v/t39.30808-6/347637180_1690058611414478_8310985686478147867_n.jpg?stp=dst-jpg_p526x296&_nc_cat=109&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEPXfAXA187PD0br0v-xA3b3Q36cBLigkLdDfpwEuKCQufjBgsqQ8kdQUEMVv0gK9CW0WONbhDBnWlIdJDIyMdY&_nc_ohc=Vny7OtIpZ8kQ7kNvgGFbl76&_nc_ht=scontent.fdac22-2.fna&oh=00_AYBWnPvrPd3A0y9oiI5R7Cq1QidgyJa5GGtZl-t4fDmkpg&oe=6686C18C"
+          type="image/x-icon"
+        />
+      </head>
       <body className={clsx(urbanist.className, "relative min-h-screen")}>
         <Header />
         {children}
