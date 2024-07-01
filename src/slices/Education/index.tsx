@@ -27,7 +27,7 @@ const Experience = ({ slice }: ExperienceProps): JSX.Element => {
             {item.heading}
           </Heading>
 
-          <div className="mt-1 flex w-fit items-center gap-1 text-2xl font-semibold tracking-tight text-slate-400">
+          <div className="mt-1 flex w-fit flex-wrap items-center gap-1 text-2xl font-semibold tracking-tight text-slate-400">
             <span>{item.time_period}</span>{" "}
             <span className="text-3xl font-extralight">/</span>{" "}
             <span>{item.institution}</span>
