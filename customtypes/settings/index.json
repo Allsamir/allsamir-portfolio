@@ -67,6 +67,15 @@
           "placeholder": "",
           "select": null
         }
+      },
+      "leetcode_link": {
+        "type": "Link",
+        "config": {
+          "label": "LeetCode Link",
+          "placeholder": "",
+          "allowTargetBlank": false,
+          "select": null
+        }
       }
     },
     "SEO and MetaData": {
